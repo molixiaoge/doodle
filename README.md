@@ -1,1 +1,1 @@
-# Doodle 
+# Doodle [![CI Maven](https://github.com/deepinthink/doodle/actions/workflows/ci-maven.yml/badge.svg)](https://github.com/deepinthink/doodle/actions/workflows/ci-maven.yml)[![CI Maven](https://github.com/deepinthink/doodle/actions/workflows/ci-cmake.yml/badge.svg)](https://github.com/deepinthink/doodle/actions/workflows/ci-cmake.yml)

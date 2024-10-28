@@ -1,0 +1,8 @@
+# Mac
+.DS_Store
+
+# Kitware CMake
+build/
+
+# Apache Maven
+target/
