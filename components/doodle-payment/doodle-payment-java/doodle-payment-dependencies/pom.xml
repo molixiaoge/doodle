@@ -8,14 +8,9 @@
     <groupId>org.deepinthink.doodle</groupId>
     <artifactId>doodle-build</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>../../../../buildtools/doodle-maven/doodle-build/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <groupId>org.deepinthink.doodle.component</groupId>
+  <artifactId>doodle-payment-dependencies</artifactId>
   <packaging>pom</packaging>
-  <modules>
-    <module>doodle-giftpack</module>
-    <module>doodle-login</module>
-    <module>doodle-mail</module>
-    <module>doodle-payment</module>
-  </modules>
 </project>

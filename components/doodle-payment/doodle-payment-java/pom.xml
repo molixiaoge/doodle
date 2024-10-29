@@ -5,17 +5,15 @@
          http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-build</artifactId>
+    <groupId>org.deepinthink.doodle.component</groupId>
+    <artifactId>doodle-payment-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>doodle-payment-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <artifactId>doodle-payment</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>doodle-giftpack</module>
-    <module>doodle-login</module>
-    <module>doodle-mail</module>
-    <module>doodle-payment</module>
+    <module>doodle-payment-dependencies</module>
+    <module>doodle-payment-parent</module>
   </modules>
 </project>
