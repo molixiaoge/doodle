@@ -12,15 +12,4 @@
   </parent>
   <artifactId>doodle-giftpack-parent</artifactId>
   <packaging>pom</packaging>
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.deepinthink.doodle.component</groupId>
-        <artifactId>doodle-giftpack-dependencies</artifactId>
-        <version>${project.version}</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
 </project>
