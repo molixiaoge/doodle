@@ -6,18 +6,16 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-build</artifactId>
+    <artifactId>doodle-framework-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>doodle-framework-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <artifactId>doodle-framework</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>doodle-build</module>
-    <module>doodle-framework</module>
-    <module>doodle-giftpack</module>
-    <module>doodle-login</module>
-    <module>doodle-mail</module>
-    <module>doodle-payment</module>
+    <module>doodle-framework-autoconfigure</module>
+    <module>doodle-framework-dependencies</module>
+    <module>doodle-framework-parent</module>
+    <module>doodle-framework-starter</module>
   </modules>
 </project>
