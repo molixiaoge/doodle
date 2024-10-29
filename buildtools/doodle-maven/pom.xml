@@ -13,6 +13,7 @@
   <artifactId>doodle</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>doodle-build</module>
     <module>doodle-giftpack</module>
     <module>doodle-login</module>
     <module>doodle-mail</module>
