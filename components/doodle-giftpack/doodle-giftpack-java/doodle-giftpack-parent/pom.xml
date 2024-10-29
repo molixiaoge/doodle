@@ -8,7 +8,7 @@
     <groupId>org.deepinthink.doodle.component</groupId>
     <artifactId>doodle-giftpack-dependencies</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../doodle-login-dependencies/pom.xml</relativePath>
+    <relativePath>../doodle-giftpack-dependencies/pom.xml</relativePath>
   </parent>
   <artifactId>doodle-giftpack-parent</artifactId>
   <packaging>pom</packaging>
