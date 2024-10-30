@@ -6,3 +6,6 @@ build/
 
 # Apache Maven
 target/
+
+# Jetbrains IDEA
+.idea/

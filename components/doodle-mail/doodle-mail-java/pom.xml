@@ -13,7 +13,9 @@
   <artifactId>doodle-mail</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>doodle-mail-autoconfigure</module>
     <module>doodle-mail-dependencies</module>
     <module>doodle-mail-parent</module>
+    <module>doodle-mail-server</module>
   </modules>
 </project>

@@ -13,7 +13,9 @@
   <artifactId>doodle-giftpack</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>doodle-giftpack-autoconfigure</module>
     <module>doodle-giftpack-dependencies</module>
     <module>doodle-giftpack-parent</module>
+    <module>doodle-giftpack-server</module>
   </modules>
 </project>
