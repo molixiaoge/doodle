@@ -8,14 +8,16 @@
     <groupId>org.deepinthink.doodle.component</groupId>
     <artifactId>doodle-payment-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-payment-parent/pom.xml</relativePath>
+    <relativePath>../doodle-payment-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-payment</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-    <module>doodle-payment-autoconfigure</module>
-    <module>doodle-payment-dependencies</module>
-    <module>doodle-payment-parent</module>
-    <module>doodle-payment-server</module>
-  </modules>
+  <artifactId>doodle-payment-autoconfigure</artifactId>
+  <properties>
+    <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.deepinthink.doodle</groupId>
+      <artifactId>doodle-framework-autoconfigure</artifactId>
+    </dependency>
+  </dependencies>
 </project>
