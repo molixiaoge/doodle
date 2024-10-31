@@ -6,21 +6,16 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.deepinthink.doodle</groupId>
-    <artifactId>doodle-build</artifactId>
+    <artifactId>doodle-broker-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-build/pom.xml</relativePath>
+    <relativePath>doodle-broker-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <artifactId>doodle-broker</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>doodle-broker</module>
-    <module>doodle-build</module>
-    <module>doodle-framework</module>
-    <module>doodle-giftpack</module>
-    <module>doodle-idle</module>
-    <module>doodle-login</module>
-    <module>doodle-mail</module>
-    <module>doodle-payment</module>
-    <module>doodle-slg</module>
+    <module>doodle-broker-autoconfigure</module>
+    <module>doodle-broker-dependencies</module>
+    <module>doodle-broker-parent</module>
+    <module>doodle-broker-server</module>
   </modules>
 </project>
