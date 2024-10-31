@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package doodle.broker.frame;
+
+option java_multiple_files = true;
+option java_package = "doodle.broker.frame";
+option java_outer_classname = "BrokerFrameProto";
+
+message UUID {
+  string id = 1;
+}
+
+message TagValue {
+  repeated string value = 1;
+}
+
+message Tags {
+  map<string, TagValue> tag = 1;
+}
+
+enum RoutingType {
+  UNICAST = 0;
+  MULTICAST = 1;
+}
+
+enum QueryType {
+  AND = 0;
+  OR = 1;
+}
+
+message RouteSetup {
+  UUID route_id = 1;
+  Tags tags = 2;
+}
+
+message Address {
+  RoutingType routing_type = 1;
+  QueryType query_type = 2;
+  Tags tags = 3;
+}
+
+message BrokerFrame {
+  oneof kind {
+    RouteSetup setup = 1;
+    Address address = 2;
+  }
+}
